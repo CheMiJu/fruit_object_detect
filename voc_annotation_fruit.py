@@ -5,15 +5,16 @@ sets=[('2007', 'train'), ('2007', 'val'), ('2007', 'test')]
 
 classes = ["apple","banana","orange"]
 
+#for count object number
+class_num = len(classes)
+cls_count = [0] * class_num
 
 def convert_annotation(year, image_id, list_file):
     in_file = open('VOCdevkit/VOC%s/Annotations/%s.xml'%(year, image_id))
     tree=ET.parse(in_file)
     root = tree.getroot()
 
-    #for count object number
-    class_num = len(classes)
-    cls_count = [0] * class_num
+    
 
     for obj in root.iter('object'):
         difficult = obj.find('difficult').text

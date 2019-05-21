@@ -1,0 +1,26 @@
+<annotation>
+	<folder>奇異果</folder>
+	<filename>kiwi_25.jpg</filename>
+	<path>C:\Users\summe\Desktop\AI\奇異果\kiwi_25.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>695</width>
+		<height>363</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kiwi</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>191</xmin>
+			<ymin>99</ymin>
+			<xmax>365</xmax>
+			<ymax>345</ymax>
+		</bndbox>
+	</object>
+</annotation>
